@@ -1,0 +1,32 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 60%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      table, th, td {
+        height: 140px;
+        width: 1540px;
+        border: 1px solid black;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjJwb51NRdqPnzLoeUx0UMHqNDX51VKP4gww&usqp=CAU);
+      }
+      .zoom {
+        padding: 10px;
+        transition: transform .1s;
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+      }
+      .zoom:hover {
+        -ms-transform: scale(1.03); /* IE 9 */
+        -webkit-transform: scale(1.03); /* Safari 3-8 */
+        transform: scale(1.03); 
+      }
+      
+     
